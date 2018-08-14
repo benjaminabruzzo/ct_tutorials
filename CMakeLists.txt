@@ -23,3 +23,9 @@ add_executable(main src/main.cpp)
 
 add_executable(masspoint src/masspoint.cpp)
 	target_link_libraries(masspoint ${catkin_LIBRARIES})
+
+add_executable(CustomController src/CustomController.cpp)
+	target_link_libraries(CustomController ${catkin_LIBRARIES})
+
+add_executable(ex_LQR src/ex_LQR.cpp)
+	target_link_libraries(ex_LQR ${catkin_LIBRARIES})
